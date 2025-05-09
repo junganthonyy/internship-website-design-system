@@ -4,6 +4,7 @@ site_url: https://hackforla.github.io/internship-website-design-system/
 nav:
   - Getting Started: index.md
   - Styles:
+      - Colors: colors.md
       - Typography: type-scale.md
   - Components:
     - Button: buttons.md

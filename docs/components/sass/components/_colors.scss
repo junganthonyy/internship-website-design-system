@@ -1,0 +1,33 @@
+.flex-container-3 {
+  display: flex;
+  flex: 0 0 33.33%;
+}
+
+.color-card {
+  height: 165px;
+  width: 250px;
+  border-radius: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+
+  & .color-sample {
+    height: 95px;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    background-color: var(--button-primary-color);
+  }
+
+  & .color-details {
+    padding: 15px;
+    border-radius: 0px 0px 15px 15px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #F5F5F5;
+
+    & .detail-title{
+      font-weight: 700;
+    }
+  }
+}

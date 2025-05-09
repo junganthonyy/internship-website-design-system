@@ -336,6 +336,36 @@ body {
   color: #ffffff;
 }
 
+.flex-container-3 {
+  display: flex;
+  flex: 0 0 33.33%;
+}
+
+.color-card {
+  height: 165px;
+  width: 250px;
+  border-radius: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.color-card .color-sample {
+  height: 95px;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  background-color: var(--button-primary-color);
+}
+.color-card .color-details {
+  padding: 15px;
+  border-radius: 0px 0px 15px 15px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #F5F5F5;
+}
+.color-card .color-details .detail-title {
+  font-weight: 700;
+}
+
 input[type=radio] {
   border: 1px solid #247984;
   border-radius: 50%;
